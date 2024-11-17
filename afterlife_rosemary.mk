@@ -14,7 +14,10 @@ $(call inherit-product, device/xiaomi/rosemary/device.mk)
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_rosemary
+# AfterLife flags
+AFTERLIFE_MAINTAINER := mrsnailo
+
+PRODUCT_NAME := afterlife_rosemary
 PRODUCT_DEVICE := rosemary
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi
