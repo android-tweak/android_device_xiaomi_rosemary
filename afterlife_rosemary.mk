@@ -16,7 +16,19 @@ $(call inherit-product, vendor/afterlife/config/common_full_phone.mk)
 
 # AfterLife flags
 AFTERLIFE_MAINTAINER := mrsnailo
+AFTERLIFE_GAPPS := true
+AFTERLIFE_MAINTAINER := Sabrina
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_SUPPORTS_BLUR := true
+USE_PIXEL_CHARGING := true
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_USES_AOSP_RECOVERY := true
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_USES_AOSP_RECOVERY := true
+TARGET_SUPPORTS_QUICK_TAP := true
 
+# rosemary specific
 PRODUCT_NAME := afterlife_rosemary
 PRODUCT_DEVICE := rosemary
 PRODUCT_MANUFACTURER := Xiaomi
